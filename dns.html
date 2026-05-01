@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domain Name Server | Internet Terminology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">NET//TERMS</a>
+    <ul class="nav-links">
+      <li><a href="www.html">WWW</a></li>
+      <li><a href="tcp-ip.html">TCP/IP</a></li>
+      <li><a href="web-browsers.html">Browsers</a></li>
+      <li><a href="web-servers.html">Servers</a></li>
+      <li><a href="url.html">URL</a></li>
+      <li><a href="dns.html" class="active">DNS</a></li>
+      <li><a href="http.html">HTTP</a></li>
+      <li><a href="intranet.html">Intranet</a></li>
+      <li><a href="extranet.html">Extranet</a></li>
+      <li><a href="multitier.html">Multitier</a></li>
+      <li><a href="ftp.html">FTP</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="web1.html">Web 1.0</a></li>
+      <li><a href="web2.html">Web 2.0</a></li>
+      <li><a href="web3.html">Web 3.0</a></li>
+      <li><a href="web4.html">Web 4.0</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="term-page">
+  <div class="term-header">
+    <div class="tag">TERM 06</div>
+    <h1>Domain Name Server</h1>
+    <p class="subtitle">The Internet's phonebook — a system that translates human-friendly domain names into machine-readable IP addresses.</p>
+  </div>
+
+  <img src="images/dns.jpg" alt="Domain Name Server" class="term-image" />
+
+  <section>
+    <h2>What is a DNS?</h2>
+    <p>The Domain Name System (DNS) is a hierarchical naming system that converts domain names like <strong>www.google.com</strong> into IP addresses like <strong>142.250.80.46</strong> that computers use to identify each other on the network.</p>
+    <p>Without DNS, users would have to memorise long numerical IP addresses to visit every website — DNS makes the web human-friendly.</p>
+  </section>
+
+  <section>
+    <h2>How DNS Works</h2>
+    <ul>
+      <li>You type a domain name into your browser</li>
+      <li>Your computer asks a DNS resolver for the IP address</li>
+      <li>The resolver queries a series of DNS servers to find the answer</li>
+      <li>The IP address is returned to your browser</li>
+      <li>Your browser connects to the web server at that IP address</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Types of DNS Servers</h2>
+    <ul>
+      <li>DNS Resolver — the first point of contact, usually provided by your ISP</li>
+      <li>Root Name Server — the top level of the DNS hierarchy</li>
+      <li>TLD Name Server — handles top-level domains like .com, .org, .ke</li>
+      <li>Authoritative Name Server — holds the actual DNS records for a domain</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>DNS Records</h2>
+    <ul>
+      <li>A Record — maps a domain to an IPv4 address</li>
+      <li>AAAA Record — maps a domain to an IPv6 address</li>
+      <li>MX Record — directs email to the correct mail server</li>
+      <li>CNAME Record — creates an alias from one domain to another</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why DNS Matters</h2>
+    <div class="info-box">
+      💡 DNS is often called the "phonebook of the Internet." Just like how a phonebook maps names to phone numbers, DNS maps domain names to IP addresses — making the web accessible and easy to navigate.
+    </div>
+  </section>
+
+  <div class="page-nav">
+    <a href="url.html">◂ Previous: URL</a>
+    <a href="index.html" class="home-btn">⌂ Home</a>
+    <a href="http.html">Next: HTTP ▸</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Internet Terminology Reference &mdash; Topic 1 Assignment
+</footer>
+
+</body>
+</html>
