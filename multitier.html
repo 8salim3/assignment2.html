@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multitier Architecture | Internet Terminology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">NET//TERMS</a>
+    <ul class="nav-links">
+      <li><a href="www.html">WWW</a></li>
+      <li><a href="tcp-ip.html">TCP/IP</a></li>
+      <li><a href="web-browsers.html">Browsers</a></li>
+      <li><a href="web-servers.html">Servers</a></li>
+      <li><a href="url.html">URL</a></li>
+      <li><a href="dns.html">DNS</a></li>
+      <li><a href="http.html">HTTP</a></li>
+      <li><a href="intranet.html">Intranet</a></li>
+      <li><a href="extranet.html">Extranet</a></li>
+      <li><a href="multitier.html" class="active">Multitier</a></li>
+      <li><a href="ftp.html">FTP</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="web1.html">Web 1.0</a></li>
+      <li><a href="web2.html">Web 2.0</a></li>
+      <li><a href="web3.html">Web 3.0</a></li>
+      <li><a href="web4.html">Web 4.0</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="term-page">
+  <div class="term-header">
+    <div class="tag">TERM 10</div>
+    <h1>Multitier Architecture</h1>
+    <p class="subtitle">A software design pattern that separates an application into distinct logical layers, each with its own specific responsibility.</p>
+  </div>
+
+  <img src="images/multitier.jpg" alt="Multitier Architecture" class="term-image" />
+
+  <section>
+    <h2>What is Multitier Architecture?</h2>
+    <p>Multitier architecture, also known as n-tier architecture, is a client-server design where the application is divided into separate layers or tiers. Each tier handles a specific function and communicates with the tiers directly above and below it.</p>
+    <p>This separation makes applications easier to develop, maintain, scale, and secure.</p>
+  </section>
+
+  <section>
+    <h2>The Three Main Tiers</h2>
+    <ul>
+      <li><strong>Presentation Tier (Front End)</strong> — the user interface layer that users interact with directly, e.g. a web browser or mobile app</li>
+      <li><strong>Application Tier (Logic Layer)</strong> — the middle layer that processes business logic, rules, and application functions, e.g. a web server running application code</li>
+      <li><strong>Data Tier (Back End)</strong> — the layer that stores, retrieves, and manages data, e.g. a database server like MySQL or MongoDB</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How the Tiers Work Together</h2>
+    <p>When a user submits a form on a website, the presentation tier sends the data to the application tier. The application tier processes the data according to business rules and communicates with the data tier to store or retrieve information. The result is then sent back up to the presentation tier for display.</p>
+    <div class="info-box">
+      💡 The key advantage of multitier architecture is that each tier can be updated, scaled, or replaced independently without affecting the others — making it highly flexible and maintainable.
+    </div>
+  </section>
+
+  <section>
+    <h2>Benefits of Multitier Architecture</h2>
+    <ul>
+      <li>Separation of concerns — each layer has a clear, focused responsibility</li>
+      <li>Scalability — each tier can be scaled independently based on demand</li>
+      <li>Security — sensitive data logic is kept away from the user interface</li>
+      <li>Maintainability — changes in one tier do not break the others</li>
+      <li>Reusability — the same application tier can serve multiple front ends</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Real World Example</h2>
+    <p>An online banking system uses multitier architecture: the website is the presentation tier, the transaction processing system is the application tier, and the customer account database is the data tier. Each layer is secured and managed separately.</p>
+  </section>
+
+  <div class="page-nav">
+    <a href="extranet.html">◂ Previous: Extranet</a>
+    <a href="index.html" class="home-btn">⌂ Home</a>
+    <a href="ftp.html">Next: FTP ▸</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Internet Terminology Reference &mdash; Topic 1 Assignment
+</footer>
+
+</body>
+</html>
