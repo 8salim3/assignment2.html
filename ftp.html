@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>File Transfer Protocol | Internet Terminology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">NET//TERMS</a>
+    <ul class="nav-links">
+      <li><a href="www.html">WWW</a></li>
+      <li><a href="tcp-ip.html">TCP/IP</a></li>
+      <li><a href="web-browsers.html">Browsers</a></li>
+      <li><a href="web-servers.html">Servers</a></li>
+      <li><a href="url.html">URL</a></li>
+      <li><a href="dns.html">DNS</a></li>
+      <li><a href="http.html">HTTP</a></li>
+      <li><a href="intranet.html">Intranet</a></li>
+      <li><a href="extranet.html">Extranet</a></li>
+      <li><a href="multitier.html">Multitier</a></li>
+      <li><a href="ftp.html" class="active">FTP</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="web1.html">Web 1.0</a></li>
+      <li><a href="web2.html">Web 2.0</a></li>
+      <li><a href="web3.html">Web 3.0</a></li>
+      <li><a href="web4.html">Web 4.0</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="term-page">
+  <div class="term-header">
+    <div class="tag">TERM 11</div>
+    <h1>File Transfer Protocol</h1>
+    <p class="subtitle">A standard network protocol used to transfer files between a client and a server over a TCP/IP network.</p>
+  </div>
+
+  <img src="images/ftp.jpg" alt="File Transfer Protocol" class="term-image" />
+
+  <section>
+    <h2>What is FTP?</h2>
+    <p>File Transfer Protocol (FTP) is one of the oldest Internet protocols, developed in the early 1970s. It provides a standard way to upload and download files between computers over a network. FTP uses a client-server model where the FTP client initiates a connection to the FTP server to transfer files.</p>
+    <p>It is commonly used by web developers to upload website files to a hosting server.</p>
+  </section>
+
+  <section>
+    <h2>How FTP Works</h2>
+    <ul>
+      <li>The FTP client connects to the FTP server using port 21</li>
+      <li>The user authenticates with a username and password</li>
+      <li>A separate data connection is established for file transfers</li>
+      <li>Files can be uploaded to or downloaded from the server</li>
+      <li>The connection is closed when the transfer is complete</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>FTP Modes</h2>
+    <ul>
+      <li><strong>Active Mode</strong> — the server initiates the data connection back to the client</li>
+      <li><strong>Passive Mode</strong> — the client initiates both connections, useful when behind a firewall</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>FTP vs SFTP vs FTPS</h2>
+    <ul>
+      <li><strong>FTP</strong> — basic file transfer, no encryption, data sent in plain text</li>
+      <li><strong>SFTP</strong> — Secure FTP, uses SSH encryption to protect data in transit</li>
+      <li><strong>FTPS</strong> — FTP Secure, adds SSL/TLS encryption to standard FTP</li>
+    </ul>
+    <div class="info-box">
+      💡 Plain FTP is considered insecure for sensitive data because usernames, passwords, and file contents are transmitted unencrypted. SFTP or FTPS should always be used for secure transfers.
+    </div>
+  </section>
+
+  <section>
+    <h2>Common FTP Client Software</h2>
+    <ul>
+      <li>FileZilla — the most popular free FTP client</li>
+      <li>WinSCP — widely used for secure file transfers on Windows</li>
+      <li>Cyberduck — popular FTP client for Mac users</li>
+    </ul>
+  </section>
+
+  <div class="page-nav">
+    <a href="multitier.html">◂ Previous: Multitier</a>
+    <a href="index.html" class="home-btn">⌂ Home</a>
+    <a href="html.html">Next: HTML ▸</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Internet Terminology Reference &mdash; Topic 1 Assignment
+</footer>
+
+</body>
+</html>
