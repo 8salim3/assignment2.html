@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTTP | Internet Terminology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">NET//TERMS</a>
+    <ul class="nav-links">
+      <li><a href="www.html">WWW</a></li>
+      <li><a href="tcp-ip.html">TCP/IP</a></li>
+      <li><a href="web-browsers.html">Browsers</a></li>
+      <li><a href="web-servers.html">Servers</a></li>
+      <li><a href="url.html">URL</a></li>
+      <li><a href="dns.html">DNS</a></li>
+      <li><a href="http.html" class="active">HTTP</a></li>
+      <li><a href="intranet.html">Intranet</a></li>
+      <li><a href="extranet.html">Extranet</a></li>
+      <li><a href="multitier.html">Multitier</a></li>
+      <li><a href="ftp.html">FTP</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="web1.html">Web 1.0</a></li>
+      <li><a href="web2.html">Web 2.0</a></li>
+      <li><a href="web3.html">Web 3.0</a></li>
+      <li><a href="web4.html">Web 4.0</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="term-page">
+  <div class="term-header">
+    <div class="tag">TERM 07</div>
+    <h1>Hypertext Transfer Protocol</h1>
+    <p class="subtitle">The foundation of data communication on the Web — a protocol that defines how messages are formatted and transmitted between browsers and servers.</p>
+  </div>
+
+  <img src="images/http.jpg" alt="Hypertext Transfer Protocol" class="term-image" />
+
+  <section>
+    <h2>What is HTTP?</h2>
+    <p>HTTP (Hypertext Transfer Protocol) is the set of rules that governs how data is exchanged between a web browser and a web server. Every time you visit a website, HTTP is working behind the scenes to fetch and deliver the content you see.</p>
+    <p>It was created by Tim Berners-Lee in 1989 and has gone through several versions, with HTTP/2 and HTTP/3 being the most modern standards today.</p>
+  </section>
+
+  <section>
+    <h2>HTTP vs HTTPS</h2>
+    <ul>
+      <li><strong>HTTP</strong> — data is transferred in plain text, making it vulnerable to interception</li>
+      <li><strong>HTTPS</strong> — the secure version, data is encrypted using SSL/TLS before transfer</li>
+      <li>Modern browsers mark HTTP sites as "Not Secure" to warn users</li>
+      <li>HTTPS is now the standard for all websites, especially those handling sensitive data</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How HTTP Works</h2>
+    <p>HTTP follows a request-response model. The browser sends an HTTP request to the server specifying what resource it needs. The server processes the request and sends back an HTTP response containing the resource and a status code.</p>
+    <div class="info-box">
+      💡 Common HTTP status codes: <strong>200</strong> = OK (success), <strong>404</strong> = Not Found, <strong>500</strong> = Internal Server Error, <strong>301</strong> = Moved Permanently.
+    </div>
+  </section>
+
+  <section>
+    <h2>HTTP Methods</h2>
+    <ul>
+      <li>GET — retrieves data from the server</li>
+      <li>POST — sends data to the server (e.g. form submissions)</li>
+      <li>PUT — updates an existing resource on the server</li>
+      <li>DELETE — removes a resource from the server</li>
+      <li>HEAD — like GET but only retrieves headers, not the body</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why HTTP Matters</h2>
+    <p>HTTP is the language that browsers and servers use to communicate. Without it, the Web simply could not function. Every page load, form submission, and API call relies on HTTP to transfer data reliably and consistently.</p>
+  </section>
+
+  <div class="page-nav">
+    <a href="dns.html">◂ Previous: DNS</a>
+    <a href="index.html" class="home-btn">⌂ Home</a>
+    <a href="intranet.html">Next: Intranet ▸</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Internet Terminology Reference &mdash; Topic 1 Assignment
+</footer>
+
+</body>
+</html>
